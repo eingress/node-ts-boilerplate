@@ -1,0 +1,43 @@
+{
+  "name": "node-typescript-boilerplate",
+  "version": "0.1.0",
+  "description": "A bare-bones node.js typescript boilerplate.",
+  "author": "Scott Mathieson <scott@eingress.io>",
+  "license": "ISC",
+  "keywords": [
+    "eslint",
+    "jest",
+    "node",
+    "typescript"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "coverage": "jest --collectCoverageFrom=src/**.js --coverage",
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,jsx,ts,tsx}' --fix --quiet",
+    "start": "npm run build && node dist/index.js",
+    "start:dev": "nodemon src/index.ts",
+    "test": "jest --silent",
+    "test:watch": "jest --silent --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "7.5.5",
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@types/jest": "24.0.16",
+    "@types/node": "12.6.9",
+    "@typescript-eslint/eslint-plugin": "1.13.0",
+    "@typescript-eslint/parser": "1.13.0",
+    "eslint": "6.1.0",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "jest": "24.8.0",
+    "nodemon": "1.19.1",
+    "prettier": "1.18.2",
+    "ts-jest": "24.0.0",
+    "ts-node": "8.3.0",
+    "typescript": "3.5.3"
+  }
+}
