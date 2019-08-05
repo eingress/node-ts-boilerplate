@@ -1,6 +1,6 @@
 # Node Typescript Boilerplate
 
-A minimalist node.js typescript boilerplate with eslint, jest, and nodemon.
+A minimalist node.js typescript boilerplate with eslint, prettier, jest, and nodemon.
 
 ## Usage
 
