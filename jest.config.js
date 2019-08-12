@@ -4,7 +4,7 @@ module.exports = {
       tsConfig: 'tsconfig.json',
     },
   },
-  moduleFileExtensions: ['node', 'json', 'jsx', 'js', 'ts', 'tsx'],
+  moduleFileExtensions: ['js', 'json', 'jsx', 'ts', 'tsx'],
   testEnvironment: 'node',
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
