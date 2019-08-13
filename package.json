@@ -1,13 +1,14 @@
 {
   "name": "node-typescript-boilerplate",
   "version": "0.1.0",
-  "description": "A bare-bones node.js typescript boilerplate.",
+  "description": "A minimalist Node.js TypeScript boilerplate with eslint, jest, nodemon, and prettier.",
   "author": "Scott Mathieson <scott@eingress.io>",
   "license": "ISC",
   "keywords": [
     "eslint",
     "jest",
     "node",
+    "prettier",
     "typescript"
   ],
   "main": "src/index.js",
