@@ -15,8 +15,8 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc -w",
-    "coverage": "jest --collectCoverageFrom=src/**.js --coverage",
-    "lint": "tsc --noEmit && eslint '*/**/*.{js,jsx,ts,tsx}' --fix --quiet",
+    "coverage": "jest --collectCoverageFrom=src/**/*.js --coverage",
+    "lint": "tsc --noEmit && eslint './{,{__tests__,src}/**/}*.{js,jsx,ts,tsx}' --fix --quiet",
     "start": "npm run build && node dist/index.js",
     "start:dev": "nodemon src/index.ts",
     "test": "jest --silent",
