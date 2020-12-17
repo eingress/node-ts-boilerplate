@@ -3,6 +3,13 @@
     "ts": "ts-node"
   },
   "ext": " js, json, ts, yaml, yml",
-  "ignore": [".git", "node_modules"],
-  "watch": ["./__tests__", "./src"]
+  "ignore": [
+    ".git",
+    "node_modules"
+  ],
+  "signal": "SIGTERM",
+  "watch": [
+    "./__tests__",
+    "./src"
+  ]
 }
