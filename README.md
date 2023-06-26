@@ -1,4 +1,4 @@
-# Node Typescript Boilerplate
+# Node TS Boilerplate
 
 A minimalist Node.js TypeScript boilerplate with eslint, jest, nodemon, and prettier.
 
